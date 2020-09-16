@@ -5,16 +5,20 @@ body{
   font-size:1.6rem;
   line-height:1.5;
   text-align:center;
-  color:#333;
+  color:rgb(243, 240, 240);
+  text-shadow: 4px 4px 4px rgba(150, 154, 150, 1);
   margin:0;
+  background-image:url(/src/backgroundtinified.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1{
-  font-size:4rem;
+  font-size:8rem;
 }
 @media(max-width:460px){
   h1{
-    font-size:3.25rem;
-    line:height:1.25rem;
+    font-size: 3.5rem;
+    line-height:1.25rem;
   }
   #main{
     margin:0
@@ -25,13 +29,16 @@ h1{
 }
 a{
   text-decoration:none;
+  color:rgb(243, 240, 240);
+  border: 2px solid white;
+  font-size: 3rem;
 }
 
 #main{
-  margin:30px 10px;
-  padding:15px;
+  margin:30px;
+  padding:10px;
   border-radius:5px;
-  background:#eee;
+  
 }
 
 img{
@@ -40,12 +47,17 @@ img{
   height:auto;
   margin:auto;
   display:block;
+  border: 2px solid white;
 }
 #img-caption{
-    font-size:2.5rem;
+    font-size:3rem;
     margin:16px 0 5px 0;
   }
 ul{
   list-style:none;
- 
+  padding-left: 0;
  }
+ p, li{
+   font-size: 3rem;
+ }
+
