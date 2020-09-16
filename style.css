@@ -8,7 +8,7 @@ body{
   color:rgb(243, 240, 240);
   text-shadow: 4px 4px 4px rgba(150, 154, 150, 1);
   margin:0;
-  background-image:url(/src/backgroundtinified.jpg);
+  background-image:url(./src/backgroundtinified.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
